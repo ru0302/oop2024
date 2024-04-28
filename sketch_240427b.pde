@@ -12,7 +12,7 @@ float[] starSpeeds;
 int[] starColors; // Store unique colors for each star
 
 void setup() {
-    size(800, 600, P3D);
+    size(1920, 1080, P3D);
     minim = new Minim(this);
     song = minim.loadFile("song.mp3", 2048);
     song.play();
